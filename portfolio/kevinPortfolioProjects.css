@@ -1,0 +1,107 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+background-color: rgba(0, 0, 0, 0.901);
+color: white;
+}
+
+
+
+.container{
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+
+
+	.containerProjects{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom: 50px;
+gap: 70px;
+	}
+
+  .projectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .projectContainer p{
+    font-size: 30px;
+  }
+
+  .projectContainer ul{
+font-size: 20px;
+  }
+
+
+a {
+  color:white;
+  text-decoration: none; /* no underline */
+}
+
+/*name in corner*/
+.name {
+  display: flex;
+  float: left;
+    color:white;
+    margin-left: 60px;
+}
+header {
+height: 80px;
+border-bottom:  2px solid #ad2a2a;
+display: flex;
+align-items: center;
+gap: 700px;
+font-size: 30px;
+
+}
+
+ header ul {
+    list-style: none;
+    display: flex;
+gap: 50px;
+}
+
+header ul li {  padding: 10px;
+
+}
+
+
+header ul li:hover{
+ background-color:  #ad2a2a;
+ border-radius: 5px;
+}
+
+
+/*title message "This here are...."*/
+.titleMessage{
+padding-left: 28rem;
+	}
+
+
+	/*projects items*/
+.container img {
+    border: 2px solid#ad2a2a;
+    box-shadow: 0 0 20px 0 #ad2a2a;
+    width: 310px;
+    height: 250px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 10px;
+  
+}
+
+
+
